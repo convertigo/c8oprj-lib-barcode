@@ -1,5 +1,5 @@
 ↑isRoot: true
-comment: My First Page as root page
+comment: Barcode Scanner Demo Page
 preloadPriority: high
 scriptContent: 
   - xmlizable: 
@@ -40,7 +40,7 @@ title: First page
         textValue: 
           - xmlizable: 
             - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-            - MobileSmartSourceType: plain:Page
+            - MobileSmartSourceType: plain:BARCODE SCANNER Page
     ↓ButtonSet2 [ngx.components.UIDynamicElement-1588170811054]: 
       beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
       tagName: ion-buttons
@@ -54,6 +54,32 @@ title: First page
   beanData: '{"ionBean":"Content"}'
   comment: Page content
   tagName: ion-content
+  ↓Button [ngx.components.UIDynamicElement-1767692411151]: 
+    beanData: '{"ionBean":"Button"}'
+    tagName: ion-button
+    ↓Label [ngx.components.UIDynamicElement-1767692411154]: 
+      beanData: '{"ionBean":"Label"}'
+      tagName: ion-label
+      ↓Text [ngx.components.UIText-1767692411157]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:SCAN
+    ↓Event [ngx.components.UIControlEvent-1767692411160]: 
+      ↓Scan [ngx.components.UIDynamicInvoke-1767695326884]: 
+        beanData: '{"ionBean":"InvokeAction"}'
+        stack: lib_barcode_scanner.Application.NgxApp.barcode
+        ↓Toast [ngx.components.UIDynamicAction-1767705876772]: 
+          beanData: '{"ionBean":"ToastAction","message":"script:out?.text"}'
+  ↓TextInput [ngx.components.UIDynamicElement-1767692411166]: 
+    beanData: |
+      '{
+       "ionBean": "Input",
+       "ControlName": "plain:name1767629468153",
+       "Label": "plain:Result text:",
+       "Value": "script:this.local?.c8o_barcode_result?.text"
+      }'
+    tagName: ion-input
 ↓Footer [ngx.components.UIDynamicElement-1491634242460]: 
   beanData: '{"ionBean":"Footer"}'
   comment: Page footer

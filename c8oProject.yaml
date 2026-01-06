@@ -1,15 +1,17 @@
 ↑convertigo: 8.0.0.m006
-↓barcode_scanner [core.Project]: 
-  comment: Convertigo NGX builder Project
+↓lib_barcode_scanner [core.Project]: 
+  comment: Barcode Scanner Library
   contextTimeout: 59
   corsOrigin: =Origin
   httpSessionTimeout: 60
+  version: 1.0
   ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
   ↓Project_reference [references.ProjectSchemaReference]: 
     comment: ngx builder template
     projectName: mobilebuilder_tpl_8_3_0_ngx=https://github.com/convertigo/c8oprj-mobilebuilder-tpl/archive/mobilebuilder_tpl_8_3_0_ngx.zip
   ↓Application [core.MobileApplication]: 
     comment: Describes the mobile application global properties
+    endpoint: http://localhost:18080/convertigo
     splashRemoveMode: beforeUpdate
     ↓Android [mobileplatforms.Android]: 
       comment: Android platform

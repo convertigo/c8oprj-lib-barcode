@@ -11,7 +11,6 @@
     projectName: mobilebuilder_tpl_8_3_0_ngx=https://github.com/convertigo/c8oprj-mobilebuilder-tpl/archive/mobilebuilder_tpl_8_3_0_ngx.zip
   ↓Application [core.MobileApplication]: 
     comment: Barcode Scanner Demo Application
-    endpoint: http://localhost:18080/convertigo
     splashRemoveMode: beforeUpdate
     ↓Android [mobileplatforms.Android]: 
       comment: Android platform

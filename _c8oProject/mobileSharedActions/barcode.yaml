@@ -88,8 +88,11 @@ comment: |
   comment: iOS and Android
   value: false
 ↓mocked_text [ngx.components.UIStackVariable-1767697303981]: 
+  comment: The mocked text response for the barcode action in case of running not supported platform. Must be a string.
   value: '''https://www.convertigo.com'''
 ↓mocked_format [ngx.components.UIStackVariable-1767697319859]: 
+  comment: The mocked format response for the barcode action in case of running not supported platform. Must be a string.
   value: '''QR_CODE'''
 ↓mocked_cancel [ngx.components.UIStackVariable-1767697328882]: 
+  comment: The mocked cancel response for the barcode action in case of running not supported platform. Must be a boolean.
   value: false

@@ -27,13 +27,13 @@ For more technical informations : [documentation](./project.md)
      <tr><td>To contribute</td><td>
 
      ```
-     lib_barcode_scanner=C:/Convertigo/Studio 8.3.11_beta/workspace/lib_barcode_scanner/.git:branch=master
+     lib_barcode_scanner=https://github.com/convertigo/c8oprj-lib-barcode.git:branch=master
      ```
      </td></tr>
      <tr><td>To simply use</td><td>
 
      ```
-     lib_barcode_scanner=C:/Convertigo/Studio 8.3.11_beta/workspace/lib_barcode_scanner//archive/master.zip
+     lib_barcode_scanner=https://github.com/convertigo/c8oprj-lib-barcode/archive/master.zip
      ```
      </td></tr>
     </table>
@@ -42,7 +42,7 @@ For more technical informations : [documentation](./project.md)
 
 ## Mobile Library
 
-Describes the mobile application global properties
+Barcode Scanner Demo Application
 
 ### Shared Actions
 
@@ -70,13 +70,13 @@ It contains the 'text', 'format' and 'cancelled' keys.
 <td>formats</td><td>default: all but PDF_417 and RSS_EXPANDED</td>
 </tr>
 <tr>
-<td>mocked_cancel</td><td></td>
+<td>mocked_cancel</td><td>The mocked cancel response for the barcode action in case of running not supported platform. Must be a boolean.</td>
 </tr>
 <tr>
-<td>mocked_format</td><td></td>
+<td>mocked_format</td><td>The mocked format response for the barcode action in case of running not supported platform. Must be a string.</td>
 </tr>
 <tr>
-<td>mocked_text</td><td></td>
+<td>mocked_text</td><td>The mocked text response for the barcode action in case of running not supported platform. Must be a string.</td>
 </tr>
 <tr>
 <td>orientation</td><td>Android only (portrait|landscape), default unset so it rotates with the device</td>

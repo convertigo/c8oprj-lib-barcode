@@ -24,7 +24,7 @@ does nothing
 
 ## ![](https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/core/images/mobileapplication_color_16x16.png?raw=true "MobileApplication") Application
 
-Describes the mobile application global properties
+Barcode Scanner Demo Application
 
 <details><summary><span style="color:DarkGoldenRod"><i>Pages</i></span></summary><blockquote><p>
 
@@ -85,7 +85,7 @@ default: all but PDF_417 and RSS_EXPANDED
 <img src="https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/uistackvariable_16x16.png?raw=true "  alt="UIStackVariable" >&nbsp;mocked_cancel
 </td>
 <td>
-
+The mocked cancel response for the barcode action in case of running not supported platform. Must be a boolean.
 </td>
 </tr>
 <tr>
@@ -93,7 +93,7 @@ default: all but PDF_417 and RSS_EXPANDED
 <img src="https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/uistackvariable_16x16.png?raw=true "  alt="UIStackVariable" >&nbsp;mocked_format
 </td>
 <td>
-
+The mocked format response for the barcode action in case of running not supported platform. Must be a string.
 </td>
 </tr>
 <tr>
@@ -101,7 +101,7 @@ default: all but PDF_417 and RSS_EXPANDED
 <img src="https://github.com/convertigo/convertigo/blob/develop/engine/src/com/twinsoft/convertigo/beans/ngx/components/images/uistackvariable_16x16.png?raw=true "  alt="UIStackVariable" >&nbsp;mocked_text
 </td>
 <td>
-
+The mocked text response for the barcode action in case of running not supported platform. Must be a string.
 </td>
 </tr>
 <tr>
